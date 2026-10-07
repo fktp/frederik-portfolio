@@ -1,0 +1,8 @@
+bin/
+obj/
+artifacts/
+.vs/
+.env
+*.user
+review-diff.txt
+review.md

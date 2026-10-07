@@ -1,0 +1,50 @@
+[
+  {
+    "Id": "pharma",
+    "Title": "P4Pharma",
+    "Category": "Sikkerhed",
+    "Number": "01",
+    "Subtitle": "Sikkerhed i en applikation til farmaceutisk arbejde",
+    "Summary": "En intern webapplikation til upload af logs og testresultater, hvor adgang til data afhænger af brugerens rolle.",
+    "Tags": [
+      "Blazor",
+      "ASP.NET Core",
+      "MySQL",
+      "OWASP"
+    ],
+    "Work": "Projektet omfattede login med TOTP, rollebaseret adgang og kontrol af, hvem der havde oprettet en sag. Sikkerhedsarbejdet tog udgangspunkt i SQL injection, XSS og Broken Access Control.",
+    "Learning": "Jeg arbejdede med sammenhængen mellem authentication og authorization: At kunne logge ind er ikke det samme som at have adgang til alle data."
+  },
+  {
+    "Id": "games",
+    "Title": "SpilSøgningsPortal",
+    "Category": "Udvikling",
+    "Number": "02",
+    "Subtitle": "Eksterne API’er møder en Blazor-applikation",
+    "Summary": "En webapplikation, der kombinerer information fra Steam og CheapShark med login og en SQL-database.",
+    "Tags": [
+      "C#",
+      "Blazor",
+      "REST API",
+      "SQL"
+    ],
+    "Work": "Semesterprojektet kombinerede API-integration, databasedesign og brugerlogin. Data fra forskellige tjenester skulle indgå i én samlet applikation.",
+    "Learning": "Jeg fik erfaring med at forbinde en brugergrænseflade, eksterne datakilder og en database og med at håndtere de forskellige datastrukturer."
+  },
+  {
+    "Id": "robot",
+    "Title": "Autonom robot",
+    "Category": "Robotik",
+    "Number": "03",
+    "Subtitle": "Navigation, sensorer og et digitalt kort",
+    "Summary": "Et robotprojekt med ruteplanlægning på et grid, kamerabehandling og overførsel af sensordata til en webapplikation.",
+    "Tags": [
+      "D* Lite",
+      "OpenCV",
+      "Arduino",
+      "UDP"
+    ],
+    "Work": "Projektet brugte JetBot / Jetson Nano, Arduino MKR WiFi 1010, MQ-4 og MQ-135. D* Lite planlagde ruter på et 20 × 20 grid, mens UDP forbandt dele af systemet.",
+    "Learning": "Jeg arbejdede med et system, hvor software skulle reagere på en fysisk verden. Gasværdierne var grove sensorestimater og ikke præcist kalibrerede ppm-målinger."
+  }
+]
